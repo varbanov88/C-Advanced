@@ -1,0 +1,5 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\SimpleCalculator\obj\Debug\SimpleCalculator.pdb

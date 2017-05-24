@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\bin\Debug\ReverseString.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\bin\Debug\ReverseString.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\bin\Debug\ReverseString.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\obj\Debug\ReverseString.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\obj\Debug\ReverseString.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseString\obj\Debug\ReverseString.pdb

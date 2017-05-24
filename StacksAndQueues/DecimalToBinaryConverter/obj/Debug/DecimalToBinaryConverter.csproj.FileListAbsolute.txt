@@ -1,0 +1,5 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\DecimalToBinaryConverter\bin\Debug\DecimalToBinaryConverter.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\DecimalToBinaryConverter\bin\Debug\DecimalToBinaryConverter.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\DecimalToBinaryConverter\bin\Debug\DecimalToBinaryConverter.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\DecimalToBinaryConverter\obj\Debug\DecimalToBinaryConverter.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\DecimalToBinaryConverter\obj\Debug\DecimalToBinaryConverter.pdb

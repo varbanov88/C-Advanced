@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61F7207D-205A-472F-A6A9-B41B28E773D3}</ProjectGuid>
+    <ProjectGuid>{E063EEA5-3234-4F88-AF94-5DCA6FA60B6B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MatchingBrackets</RootNamespace>
-    <AssemblyName>MatchingBrackets</AssemblyName>
+    <RootNamespace>MathPotato</RootNamespace>
+    <AssemblyName>MathPotato</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MatchingBrackets.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
