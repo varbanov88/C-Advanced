@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\bin\Debug\BalancedParenthesis.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\bin\Debug\BalancedParenthesis.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\bin\Debug\BalancedParenthesis.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\obj\Debug\BalancedParenthesis.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\obj\Debug\BalancedParenthesis.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\BalancedParenthesis\obj\Debug\BalancedParenthesis.pdb

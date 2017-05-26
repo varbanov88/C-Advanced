@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E063EEA5-3234-4F88-AF94-5DCA6FA60B6B}</ProjectGuid>
+    <ProjectGuid>{129D6104-3305-4F9B-BB81-57707C772F59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MathPotato</RootNamespace>
-    <AssemblyName>MathPotato</AssemblyName>
+    <RootNamespace>PoisonousPlants</RootNamespace>
+    <AssemblyName>PoisonousPlants</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathPotato.cs" />
+    <Compile Include="PoisonousPlants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

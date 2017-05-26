@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E063EEA5-3234-4F88-AF94-5DCA6FA60B6B}</ProjectGuid>
+    <ProjectGuid>{48F3B42F-B263-4030-BE40-EA449A1F44E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MathPotato</RootNamespace>
-    <AssemblyName>MathPotato</AssemblyName>
+    <RootNamespace>StackFibonacci</RootNamespace>
+    <AssemblyName>StackFibonacci</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathPotato.cs" />
+    <Compile Include="StackFibonacci.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

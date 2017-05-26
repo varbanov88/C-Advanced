@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\bin\Debug\TruckTour.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\bin\Debug\TruckTour.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\bin\Debug\TruckTour.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\obj\Debug\TruckTour.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\obj\Debug\TruckTour.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\TruckTour\obj\Debug\TruckTour.pdb

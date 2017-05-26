@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\bin\Debug\CalculateSequenceWithQueue.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\bin\Debug\CalculateSequenceWithQueue.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\bin\Debug\CalculateSequenceWithQueue.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\obj\Debug\CalculateSequenceWithQueue.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\obj\Debug\CalculateSequenceWithQueue.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\CalculateSequenceWithQueue\obj\Debug\CalculateSequenceWithQueue.pdb

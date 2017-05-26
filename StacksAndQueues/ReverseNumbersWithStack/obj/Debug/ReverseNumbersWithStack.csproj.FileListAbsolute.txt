@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.pdb

@@ -1,0 +1,5 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\MaximumElement\bin\Debug\MaximumElement.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\MaximumElement\bin\Debug\MaximumElement.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\MaximumElement\bin\Debug\MaximumElement.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\MaximumElement\obj\Debug\MaximumElement.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\MaximumElement\obj\Debug\MaximumElement.pdb

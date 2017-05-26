@@ -1,0 +1,6 @@
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\bin\Debug\StackFibonacci.exe.config
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\bin\Debug\StackFibonacci.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\bin\Debug\StackFibonacci.pdb
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\obj\Debug\StackFibonacci.csprojResolveAssemblyReference.cache
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\obj\Debug\StackFibonacci.exe
+C:\Users\Borislav\Desktop\sofuni\Advanced\C-Advanced\StacksAndQueues\StackFibonacci\obj\Debug\StackFibonacci.pdb
