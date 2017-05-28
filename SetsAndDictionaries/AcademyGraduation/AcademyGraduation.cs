@@ -11,7 +11,7 @@ namespace AcademyGraduation
         public static void Main()
         {
             var studentsCount = int.Parse(Console.ReadLine());
-            var students = new Dictionary<string, double[]>();
+            var students = new SortedDictionary<string, double[]>();
 
             for (int i = 0; i < studentsCount; i++)
             {
@@ -23,8 +23,6 @@ namespace AcademyGraduation
 
                 students.Add(student, grades);
             }
-
-            //Gosho is graduated with 4.375
 
             foreach (var person in students)
             {

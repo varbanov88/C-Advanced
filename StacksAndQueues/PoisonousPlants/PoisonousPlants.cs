@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PoisonousPlants
@@ -8,57 +9,30 @@ namespace PoisonousPlants
         public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            int[] plants = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int[] days = new int[n];
-            int[] minElement = new int[n];
+            var plants = Console.ReadLine()
+                                .Split()
+                                .Select(int.Parse)
+                                .ToArray();
 
-            int min = int.MaxValue;
-            for (int i = 0; i < n; i++)
+            var indexes = new Stack<int>();
+            indexes.Push(0);
+
+            var days = new int[n];
+
+            for (int i = 1 ; i < n; i++)
             {
-                if (plants[i] < min)
+                var maxDays = 0;
+                while (indexes.Count > 0 && plants[indexes.Peek()] >= plants[i])
                 {
-                    min = plants[i];
-                }
-                minElement[i] = min;
-            }
-
-            int max = 0;
-            int maxIndex = 0;
-
-            for (int i = 1; i < n; i++)
-            {
-                if (plants[i] > plants[i - 1])
-                {
-                    days[i] = 1;
-                    if (days[i] >= max)
-                    {
-                        maxIndex = i;
-                        max = days[i];
-                    }
-                    continue;
+                    maxDays = Math.Max(maxDays, days[indexes.Pop()]);
                 }
 
-                if (plants[i] > minElement[i])
+                if (indexes.Count > 0)
                 {
-                    if (plants[i] > plants[maxIndex])
-                    {
-                        days[i] = days[i - 1] + 1;
-                    }
-                    else
-                    {
-                        days[i] = days[maxIndex] + 1;
-                    }
-                }
-                if (plants[i] == minElement[i])
-                {
-                    max = 0;
+                    days[i] = maxDays + 1;
                 }
 
-                if (days[i] >= max)
-                {
-                    maxIndex = i;
-                    max = days[i];
-                }
+                indexes.Push(i);
             }
 
             Console.WriteLine(days.Max());
