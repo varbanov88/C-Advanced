@@ -16,7 +16,7 @@ namespace DiagonalDifference
             for (int i = 0; i < height; i++)
             {
                 matrix[i] = Console.ReadLine()
-                                    .Split()
+                                    .Split(new[] {' ' }, StringSplitOptions.RemoveEmptyEntries)
                                     .Select(long.Parse)
                                     .ToArray();
 
