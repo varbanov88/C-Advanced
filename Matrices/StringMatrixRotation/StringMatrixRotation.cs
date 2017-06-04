@@ -7,13 +7,12 @@ namespace StringMatrixRotation
     {
         public static void Main()
         {
-            //judge result: 80/100
             var rotationCommand = Console.ReadLine().Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
 
             var rotation = int.Parse(rotationCommand[1]);
             var words = new Queue<string>();
             var longestStringLength = 0;
-            var input = Console.ReadLine().Trim();
+            var input = Console.ReadLine();
 
             while (input != "END")
             {
@@ -23,7 +22,7 @@ namespace StringMatrixRotation
                     longestStringLength = input.Length;
                 }
 
-                input = Console.ReadLine().Trim();
+                input = Console.ReadLine();
             }
 
             char[][] matrix = new char[words.Count][];
