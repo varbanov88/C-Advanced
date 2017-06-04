@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Crossfire
 {
@@ -10,75 +7,109 @@ namespace Crossfire
     {
         public static void Main()
         {
-            var dimensions = Console.ReadLine()
-                                    .Split()
-                                    .Select(int.Parse)
-                                    .ToArray();
+            var matrix = InitializeMatrix();
+            matrix = ExecuteCommands(matrix);
+            PrintAliveCells(matrix);
+        }
 
-            int[][] matrix = new int[dimensions[0]][];
-            var num = 1;
-
-            for (int row = 0; row < matrix.Length; row++)
+        private static void PrintAliveCells(int[][] matrix)
+        {
+            for (int i = 0; i < matrix.Length; i++)
             {
-                matrix[row] = new int[dimensions[1]];
-                for (int col = 0; col < matrix[row].Length; col++)
+                Console.WriteLine(string.Join(" ", matrix[i].Where(c => c != -1)));
+            }
+        }
+
+        private static int[][] ExecuteCommands(int[][] matrix)
+        {
+            var command = Console.ReadLine().Trim();
+
+            while (command != "Nuke it from orbit")
+            {
+                var commandDetails = command
+                    .Split()
+                    .Select(int.Parse)
+                    .ToArray();
+
+                var hitRow = commandDetails[0];
+                var hitColumn = commandDetails[1];
+                var hitWaveRadius = commandDetails[2];
+
+                matrix = DestroyMatrix(matrix, hitRow, hitColumn, hitWaveRadius);
+
+                command = Console.ReadLine().Trim();
+            }
+
+            return matrix;
+        }
+
+        private static int[][] DestroyMatrix(int[][] matrix, int hitRow, int hitCol, int hitWave)
+        {
+            // Mark destroyed part of the column
+            for (int row = hitRow - hitWave; row <= hitRow + hitWave; row++)
+            {
+                if (IsInMatrix(row, hitCol, matrix))
                 {
-                    matrix[row][col] = num;
-                    num++;
+                    matrix[row][hitCol] = -1;
                 }
             }
 
-            var commands = Console.ReadLine();
-
-            while (!commands.Equals("Nuke it from orbit"))
+            // Mark destroyed part of the row
+            for (int col = hitCol - hitWave; col <= hitCol + hitWave; col++)
             {
-                var commandData = commands.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
-                                          .Select(int.Parse)
-                                          .ToArray();
-                var row = commandData[0];
-                var col = commandData[1];
-                var radius = commandData[2];
-
-                matrix[row][col] = 0;
-
-                for (int i = 1; i <= radius; i++)
+                if (IsInMatrix(hitRow, col, matrix))
                 {
-                    if (col + i < matrix[row].Length)
-                    {
-                        matrix[row][col + 1] = 0;
-                    }
-
-                    if (col - i >= 0)
-                    {
-                        matrix[row][col - i] = 0;
-                    }
-
-                    if (row - i >= 0)
-                    {
-                        matrix[row - i][col] = 0;
-                    }
-
-                    if (row + i <= dimensions[0] - 1)
-                    {
-                        matrix[row + i][col] = 0;
-                    }
+                    matrix[hitRow][col] = -1;
                 }
-
-                for (int rowIndex = 0; rowIndex < matrix.Length; rowIndex++)
-                {
-                    var emptyRow = -1;
-                    var emptyCol = -1;
-                    for (int colIndex = 0; colIndex < matrix[rowIndex].Length - 1; colIndex++)
-                    {
-                        if (true)
-                        {
-
-                        }
-                    }
-                }
-
-                commands = Console.ReadLine();
             }
+
+            // Remove destroyed cells
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                // Remove destroyed cells if there is ones
+                for (int j = 0; j < matrix[i].Length; j++)
+                {
+                    if (matrix[i][j] < 0)
+                    {
+                        matrix[i] = matrix[i].Where(n => n > 0).ToArray();
+                        break;
+                    }
+                }
+
+                // Remove empty rows
+                if (matrix[i].Count() < 1)
+                {
+                    matrix = matrix.Take(i).Concat(matrix.Skip(i + 1)).ToArray();
+                    i--;
+                }
+            }
+
+            return matrix;
+        }
+
+        private static bool IsInMatrix(int row, int col, int[][] matrix)
+        {
+            return row >= 0 && col >= 0 && row < matrix.Length && col < matrix[row].Length;
+        }
+
+        private static int[][] InitializeMatrix()
+        {
+            var dimensions = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var currentCellNumber = 1;
+            var matrix = new int[dimensions[0]][];
+
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                matrix[i] = new int[dimensions[1]];
+
+                for (int j = 0; j < matrix[i].Length; j++)
+                {
+                    matrix[i][j] = currentCellNumber;
+                    currentCellNumber++;
+                }
+            }
+
+            return matrix;
         }
     }
 }

@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSystem", "ParkingSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMatrixRotation", "StringMatrixRotation\StringMatrixRotation.csproj", "{9FA5282D-35CB-4BEC-9D82-AEED0E5B0797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHeiganDance", "TheHeiganDance\TheHeiganDance.csproj", "{B190293E-5256-4FE5-B37C-E2872327A872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{9FA5282D-35CB-4BEC-9D82-AEED0E5B0797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA5282D-35CB-4BEC-9D82-AEED0E5B0797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA5282D-35CB-4BEC-9D82-AEED0E5B0797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B190293E-5256-4FE5-B37C-E2872327A872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B190293E-5256-4FE5-B37C-E2872327A872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B190293E-5256-4FE5-B37C-E2872327A872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B190293E-5256-4FE5-B37C-E2872327A872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

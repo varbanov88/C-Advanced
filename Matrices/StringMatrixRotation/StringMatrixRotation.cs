@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringMatrixRotation
 {
@@ -10,6 +7,7 @@ namespace StringMatrixRotation
     {
         public static void Main()
         {
+            //judge result: 80/100
             var rotationCommand = Console.ReadLine().Split(new[] { '(', ')' }, StringSplitOptions.RemoveEmptyEntries);
 
             var rotation = int.Parse(rotationCommand[1]);
