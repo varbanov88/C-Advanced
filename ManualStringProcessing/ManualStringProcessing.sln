@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseURLs", "ParseURLs\Pars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTags", "ParseTags\ParseTags.csproj", "{562DB169-C814-46C2-B0EC-5F48C2236336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialWords", "SpecialWords\SpecialWords.csproj", "{AE13EA91-EA47-491B-AB26-1D5255A40869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenateStrings", "ConcatenateStrings\ConcatenateStrings.csproj", "{9FC5B68C-B9B5-44B4-86CB-C5F318023E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{562DB169-C814-46C2-B0EC-5F48C2236336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562DB169-C814-46C2-B0EC-5F48C2236336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562DB169-C814-46C2-B0EC-5F48C2236336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE13EA91-EA47-491B-AB26-1D5255A40869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE13EA91-EA47-491B-AB26-1D5255A40869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE13EA91-EA47-491B-AB26-1D5255A40869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE13EA91-EA47-491B-AB26-1D5255A40869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC5B68C-B9B5-44B4-86CB-C5F318023E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC5B68C-B9B5-44B4-86CB-C5F318023E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC5B68C-B9B5-44B4-86CB-C5F318023E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC5B68C-B9B5-44B4-86CB-C5F318023E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
