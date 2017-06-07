@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsResults", "StudentsResults\StudentsResults.csproj", "{BC9D89AA-9075-479F-A614-1CB3EEDE56D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseURLs", "ParseURLs\ParseURLs.csproj", "{5474B47B-2B35-41EB-8989-9DDC9EEB314E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTags", "ParseTags\ParseTags.csproj", "{562DB169-C814-46C2-B0EC-5F48C2236336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC9D89AA-9075-479F-A614-1CB3EEDE56D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9D89AA-9075-479F-A614-1CB3EEDE56D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9D89AA-9075-479F-A614-1CB3EEDE56D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9D89AA-9075-479F-A614-1CB3EEDE56D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5474B47B-2B35-41EB-8989-9DDC9EEB314E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5474B47B-2B35-41EB-8989-9DDC9EEB314E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5474B47B-2B35-41EB-8989-9DDC9EEB314E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5474B47B-2B35-41EB-8989-9DDC9EEB314E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562DB169-C814-46C2-B0EC-5F48C2236336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562DB169-C814-46C2-B0EC-5F48C2236336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562DB169-C814-46C2-B0EC-5F48C2236336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562DB169-C814-46C2-B0EC-5F48C2236336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

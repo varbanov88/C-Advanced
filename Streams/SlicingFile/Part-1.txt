@@ -1,0 +1,3 @@
+urrent time and the count of logical processors on the machine
+•	3rd page should be an error page if the user tries to access any other page return as response the error page.
+You are provided with some HTML files of the needed pages to make it easier for you.  But you are free to modify them and even use your own HTML files.

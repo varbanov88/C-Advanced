@@ -1,0 +1,4 @@
+1. Write a program 
+2. that reads a text file 
+3. and inserts line numbers 
+4. in front of each of its lines
