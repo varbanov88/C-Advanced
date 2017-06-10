@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CountSubstringOccurrences
 {
@@ -10,12 +6,20 @@ namespace CountSubstringOccurrences
     {
         public static void Main()
         {
-            var text = Console.ReadLine();
-            var pattern = Console.ReadLine();
+            string line = Console.ReadLine().ToLower();
+            string check = Console.ReadLine().ToLower();
 
-            var counter = 0;
+            int maxIndex = line.Length - check.Length;
+            int counter = 0;
 
-
+            for (int i = 0; i <= maxIndex; i++)
+            {
+                string substring = line.Substring(i, check.Length);
+                if (substring.Equals(check))
+                {
+                    counter++;
+                }
+            }
             Console.WriteLine(counter);
         }
     }
