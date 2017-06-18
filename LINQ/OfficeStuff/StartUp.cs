@@ -50,7 +50,7 @@ namespace OfficeStuff
                 foreach (var order in kvp.Value)
                 {
                     var sb = new StringBuilder();
-                    sb.Append(order.Key).Append(" - ").Append(order.Value);
+                    sb.Append(order.Key).Append("-").Append(order.Value);
                     ordersList.Add(sb.ToString());
                 }
 
