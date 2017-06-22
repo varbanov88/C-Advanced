@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DFAB181-DDDA-470B-93F8-101C93418667}</ProjectGuid>
+    <ProjectGuid>{2478FD33-5DBD-4820-94A2-E3EAB5B77912}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CubicsRube</RootNamespace>
-    <AssemblyName>CubicsRube</AssemblyName>
+    <RootNamespace>BasicMarkupLanguage</RootNamespace>
+    <AssemblyName>BasicMarkupLanguage</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CubicsRube.cs" />
+    <Compile Include="BasicMarkupLanguage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

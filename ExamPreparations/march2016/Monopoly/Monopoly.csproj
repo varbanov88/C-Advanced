@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DFAB181-DDDA-470B-93F8-101C93418667}</ProjectGuid>
+    <ProjectGuid>{8B61C4F2-9D8D-4DD5-8EC0-2E7CACBEF700}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CubicsRube</RootNamespace>
-    <AssemblyName>CubicsRube</AssemblyName>
+    <RootNamespace>Monopoly</RootNamespace>
+    <AssemblyName>Monopoly</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CubicsRube.cs" />
+    <Compile Include="Monopoly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

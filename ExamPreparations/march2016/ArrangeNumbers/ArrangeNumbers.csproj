@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DFAB181-DDDA-470B-93F8-101C93418667}</ProjectGuid>
+    <ProjectGuid>{0A95F35C-E5CC-4613-B9BC-6E988512080D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CubicsRube</RootNamespace>
-    <AssemblyName>CubicsRube</AssemblyName>
+    <RootNamespace>ArrangeNumbers</RootNamespace>
+    <AssemblyName>ArrangeNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CubicsRube.cs" />
+    <Compile Include="ArrangeNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicAssault", "CubicAssaul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicMessages", "CubicMessages\CubicMessages.csproj", "{2F6D11E0-F1FE-4845-9401-BB78A1854DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicsRube", "CubicsRube\CubicsRube.csproj", "{4DFAB181-DDDA-470B-93F8-101C93418667}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2F6D11E0-F1FE-4845-9401-BB78A1854DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F6D11E0-F1FE-4845-9401-BB78A1854DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F6D11E0-F1FE-4845-9401-BB78A1854DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFAB181-DDDA-470B-93F8-101C93418667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFAB181-DDDA-470B-93F8-101C93418667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFAB181-DDDA-470B-93F8-101C93418667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFAB181-DDDA-470B-93F8-101C93418667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
